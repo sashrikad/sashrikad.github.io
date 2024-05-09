@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiamsashrika=self.webpackChunkiamsashrika||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/iamsashrika/blog","blogTitle":"Blog"}')}}]);
