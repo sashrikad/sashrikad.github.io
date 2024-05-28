@@ -1,6 +1,6 @@
 ---
-sidebar_position: 10
-title: Tiny ML
+sidebar_position: 1
+title: Smart Indoor Harvesting System
 ---
 
 ![](https://hackster.imgix.net/uploads/attachments/1336803/img_4735_D9QLZKJ0SH.jpg?auto=compress%2Cformat&w=740&h=555&fit=max)

@@ -28,3 +28,20 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.rounded-img{
+  border-radius: 50%;
+}
+
+.bio{
+
+  justify-content: center;
+    display: flex;
+    align-items: center;
+  
+}
+
+.bio p{
+  text-align: left;
+  font-size: 1.3rem;
+}
