@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'sashrikad', // Usually your GitHub org/user name.
+  projectName: 'iamsashrika', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,6 +28,9 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  plugins:[
+    'plugin-image-zoom'
+  ],
 
   presets: [
     [
@@ -70,10 +73,11 @@ const config: Config = {
           position: 'left',
           label: 'Projects',
         },
+        {to: '/achievements', label: 'Achievements', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://www.hackster.io/sashrikad',
+          label: 'Hackster',
           position: 'right',
         },
       ],
@@ -81,29 +85,21 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
+        
         {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Hackster',
+              href: 'https://www.hackster.io/sashrikad',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Github',
+              href: 'https://github.com/sashrikad',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Youtube',
+              href: 'https://www.youtube.com/channel/UCnBiDeQRr8I__a4olGiSXmQ',
             },
           ],
         },
@@ -116,16 +112,27 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/sashrikad',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Iamsashrika.link, Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    imageZoom: {
+      // CSS selector to apply the plugin to, defaults to '.markdown img'
+      selector: '.container img',
+      // Optional medium-zoom options
+      // see: https://www.npmjs.com/package/medium-zoom#options
+      options: {
+        margin: 24,
+        background: 'rgb(24 25 26 / 80%)',
+        scrollOffset: 0
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
