@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiamsashrika=self.webpackChunkiamsashrika||[]).push([[786],{1959:a=>{a.exports=JSON.parse('{"tags":[{"label":"wio","permalink":"/iamsashrika/blog/tags/wio","count":1},{"label":"seeed","permalink":"/iamsashrika/blog/tags/seeed","count":1}]}')}}]);
