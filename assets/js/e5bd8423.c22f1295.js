@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiamsashrika=self.webpackChunkiamsashrika||[]).push([[198],{340:a=>{a.exports=JSON.parse('{"tag":{"label":"wio","permalink":"/blog/tags/wio","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/wio","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
