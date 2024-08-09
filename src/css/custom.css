@@ -29,19 +29,42 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.rounded-img{
+.rounded-img {
   border-radius: 50%;
 }
 
-.bio{
+.bio {
 
   justify-content: center;
-    display: flex;
-    align-items: center;
-  
+  display: flex;
+  align-items: center;
+
 }
 
-.bio p{
+.bio p {
   text-align: left;
   font-size: 1.3rem;
+}
+
+
+.flex-container {
+  display: flex;
+
+}
+
+.flex-container>div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 33%;
+  height: 500px;
+}
+
+.col-container {
+  padding: 3rem;
+}
+
+.col-container .col {
+  margin-top: 1rem;
 }

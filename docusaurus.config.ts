@@ -74,6 +74,7 @@ const config: Config = {
           label: 'Projects',
         },
         {to: '/achievements', label: 'Achievements', position: 'left'},
+        {to: '/art-blog', label: 'Art Blog', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://www.hackster.io/sashrikad',
