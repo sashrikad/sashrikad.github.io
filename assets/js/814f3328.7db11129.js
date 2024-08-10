@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkiamsashrika=self.webpackChunkiamsashrika||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Intro to Wio Terminal","permalink":"/blog/intro-wio","unlisted":false}]}')}}]);
