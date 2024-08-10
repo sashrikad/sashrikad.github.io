@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -11,7 +11,7 @@ const config: Config = {
   url: 'https://sashrikad.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/iamsashrika/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -28,7 +28,7 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  plugins:[
+  plugins: [
     'plugin-image-zoom'
   ],
 
@@ -73,9 +73,9 @@ const config: Config = {
           position: 'left',
           label: 'Projects',
         },
-        {to: '/achievements', label: 'Achievements', position: 'left'},
-        {to: '/art-blog', label: 'Art Blog', position: 'left'},
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/achievements', label: 'Achievements', position: 'left' },
+        { to: '/art-blog', label: 'Art Blog', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://www.hackster.io/sashrikad',
           label: 'Hackster',
@@ -86,7 +86,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        
+
         {
           title: 'Community',
           items: [
