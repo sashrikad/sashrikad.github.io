@@ -20,11 +20,11 @@ export default function ArtBlog() {
           <Card>
             <CardImage
               cardImageUrl='img/g_dress_model.jpg' />
-            <CardFooter style={{ backgroundColor: '#e37c77', color: 'black' }} className='text--center'>
+            <CardFooter style={{ backgroundColor: 'var(--ifm-color-primary)', color: 'black' }} className='text--center'>
               <div className='button-group button-group--block'>
-                <button className='button button--success'>Like</button>
+                {/* <button className='button button--success'>Like</button>
                 <button className='button button--warning'>Comment</button>
-                <button className='button button--danger'>Share</button>
+                <button className='button button--danger'>Share</button> */}
               </div>
             </CardFooter>
           </Card>
@@ -35,11 +35,11 @@ export default function ArtBlog() {
           <Card>
             <CardImage
               cardImageUrl='img/school_photo.jpg' />
-            <CardFooter style={{ backgroundColor: '#e37c77', color: 'black' }} className='text--center'>
+            <CardFooter style={{ backgroundColor: 'var(--ifm-color-primary)', color: 'black' }} className='text--center'>
               <div className='button-group button-group--block'>
-                <button className='button button--success'>Like</button>
+                {/* <button className='button button--success'>Like</button>
                 <button className='button button--warning'>Comment</button>
-                <button className='button button--danger'>Share</button>
+                <button className='button button--danger'>Share</button> */}
               </div>
             </CardFooter>
           </Card>
@@ -50,11 +50,11 @@ export default function ArtBlog() {
           <Card>
             <CardImage
               cardImageUrl='img/mushroom_house.jpg' />
-            <CardFooter style={{ backgroundColor: '#e37c77', color: 'black' }} className='text--center'>
+            <CardFooter style={{ backgroundColor: 'var(--ifm-color-primary)', color: 'black' }} className='text--center'>
               <div className='button-group button-group--block'>
-                <button className='button button--success'>Like</button>
+                {/* <button className='button button--success'>Like</button>
                 <button className='button button--warning'>Comment</button>
-                <button className='button button--danger'>Share</button>
+                <button className='button button--danger'>Share</button> */}
               </div>
             </CardFooter>
           </Card>
@@ -64,11 +64,11 @@ export default function ArtBlog() {
           <Card>
             <CardImage
               cardImageUrl='img/tina.jpg' />
-            <CardFooter style={{ backgroundColor: '#e37c77', color: 'black' }} className='text--center'>
+            <CardFooter style={{ backgroundColor: 'var(--ifm-color-primary)', color: 'black' }} className='text--center'>
               <div className='button-group button-group--block'>
-                <button className='button button--success'>Like</button>
+                {/* <button className='button button--success'>Like</button>
                 <button className='button button--warning'>Comment</button>
-                <button className='button button--danger'>Share</button>
+                <button className='button button--danger'>Share</button> */}
               </div>
             </CardFooter>
           </Card>
