@@ -37,6 +37,13 @@ hide_table_of_contents: true
 See the rest in [this link](https://news.avnet.com/news-blog/news-blog-details/2024/Innovations-for-a-sustainable-planet/default.aspx)
 
 #
-# The Future of Resilience Contest Grand Prize
-### In the The Future of Resilience Contest in Hackster, I had gotten grand prize using my device, Smart Lake.
+# The Future of Resilience Contest - Grand Prize
+### In the The Future of Resilience Contest in Hackster, I had gotten grand prize using my device, Smart Trash Buddy.
 <img src="img/sashrika_winner_certificate.jpg" width="800px" />
+
+#
+# 3M Young Scientist Challenge - Connecticut State Merit Winner
+### I participated in 3M's Young Scientist Challenge with my device Smart Trash Buddy, and was Connecticut's State Merit Winner.
+<img src="img/3m-certificate-sashrika.jpeg" width="800px" />
+
+See all other contest winners [here](https://youngscientistlab.com/annual-challenge/finalists-mentors-judges/state-merit-winners)
