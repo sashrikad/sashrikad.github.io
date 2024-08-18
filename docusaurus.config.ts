@@ -59,7 +59,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/IAMSASHRIKA.LINK.jpg',
+    image: 'img/iamsashrika.jpg',
     navbar: {
       title: 'Iamsashrika',
       logo: {
