@@ -19,7 +19,7 @@ const FeatureList: FeatureItem[] = [
     Svg: null,
     description: (
       <>
-        Hello! My name is Sashrika Das and welcome to my blog! I am a 9th grade student at East Lyme High School, Connecticut. I have a dog named Sasha that is 7 years old. Along with playing with my dog, Sasha, my favorite hobbies are coding, drawing and sketching, and when the weather is nice, I like to bike, play tennis, and swim as well. I always try to participate in coding competitions and like to share my story with my classmates and teachers.
+        Hello! My name is Sashrika Das and welcome to my blog! I am a sophomore at East Lyme High School, Connecticut. My favorite hobbies are coding, listening to music, drawing and sketching, and when the weather is nice, I like to bike, play tennis, swim, and play with my dog Sasha as well. I always try to participate in coding competitions and like to share my story with my classmates and teachers.
       </>
     ),
   },
@@ -48,10 +48,10 @@ export default function HomepageFeatures(): JSX.Element {
       <div className="container">
         <div className="row">
           <div className={clsx('col col--4 ')}>
-            <img src="img/iamsashrika.jpeg" className='rounded-img'></img>
+            <img src="img/sash.png" className='rounded-img'></img>
           </div>
           <div className={clsx('col col--8 bio')} >
-            <p >Hello! My name is Sashrika Das and welcome to my blog! I am a 9th grade student at East Lyme High School, Connecticut. I have a dog named Sasha that is 7 years old. Along with playing with my dog, Sasha, my favorite hobbies are coding, drawing and sketching, and when the weather is nice, I like to bike, play tennis, and swim as well. I always try to participate in coding competitions and like to share my story with my classmates and teachers.</p>
+            <p >Hello! My name is Sashrika Das and welcome to my blog! I am a sophomore at East Lyme High School, Connecticut. My favorite hobbies are coding, listening to music, drawing and sketching, and when the weather is nice, I like to bike, play tennis, swim, and play with my dog Sasha as well. I always try to participate in coding competitions and like to share my story with my classmates and teachers.</p>
           </div>
 
           {/* {FeatureList.map((props, idx) => (

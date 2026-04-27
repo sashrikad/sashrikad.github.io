@@ -3,8 +3,8 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: '👋 Hello, I am Sashrika',
-  tagline: 'Making cool inventions!',
+  title: 'Welcome to my page!',
+  tagline: 'Innovation has no limit',
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
@@ -28,9 +28,7 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  plugins: [
-    'plugin-image-zoom'
-  ],
+  plugins: ['plugin-image-zoom'],
 
   presets: [
     [
@@ -86,7 +84,6 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-
         {
           title: 'Community',
           items: [
@@ -132,7 +129,7 @@ const config: Config = {
       options: {
         margin: 24,
         background: 'rgb(24 25 26 / 80%)',
-        scrollOffset: 0
+        scrollOffset: 0,
       },
     },
   } satisfies Preset.ThemeConfig,
