@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiamsashrika=self.webpackChunkiamsashrika||[]).push([[947],{6600:a=>{a.exports=JSON.parse('{"authors":[{"name":"Sashrika Das","title":"Student","url":"https://iamsashrika.link","imageURL":"https://avatars.githubusercontent.com/u/82982009?v=4","key":"sashrika","page":null,"count":1}]}')}}]);
